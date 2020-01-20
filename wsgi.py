@@ -13,7 +13,8 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 #app = Flask(__name__)
 application = Flask(__name__)
 GOOGLE_SPEECH_API_KEY = None
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+#app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+application.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 #config Db
 #db =yaml.load(open('db.yaml'))
 #app.config["MYSQL_HOST"] =db['mysql_host']
