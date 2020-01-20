@@ -108,7 +108,7 @@ def Technolgy():
 #@app.route('/Project', )
 @application.route('/Project', )
 def Project():
-    return render_template('Project.html')
+    return render_template('project.html')
 
 #@app.route('/all')
 @application.route('/all')
